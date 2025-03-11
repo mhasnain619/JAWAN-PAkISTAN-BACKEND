@@ -60,7 +60,6 @@ app.post('/createUser', (req, res) => {
     })
 })
 app.put('/updateUser', (req, res) => {
-
     res.json({
         message: 'update user data'
     })
